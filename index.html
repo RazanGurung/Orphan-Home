@@ -4,13 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Mountain Children's Home</title>
     </head>
     <body>
+        <!-- header -->
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="brand">
+                        <a href="#index"><h1><span>Mountain</span> Children Home</h1></a>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger">
+                            <div class="bar"></div>
+                        </div>
+                        <ul>
+                            <li><a href="#index" data-after="Home">Home</a></li>
+                            <li><a href="#about" data-after="About">About </a></li>
+                            <li><a href="#what-we-do" data-after="Activities"> Activities</a></li>
+                            <li><a href="#volunteer" data-after="Volunteer">Volunteer</a></li>
+                            <li><a href="#contact" data-after="Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Header -->
         <!-- start of the index section -->
        <section id="index">
             <div class="index container">
@@ -18,7 +37,7 @@
                     <h1>Welcome To <span></span></h1>
                     <h1>Mountain <span></span></h1>
                     <h1>Children Home <span></span></h1>
-                    <a href="#" type="button" class="cta">Learn more</a>
+                    <a href="#about" type="button" class="cta">Learn more</a>
                 </div>
             </div>
        </section>
@@ -46,7 +65,7 @@
                                 to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
                             </p>
                             <p class="credit">-chairman</p>
-                            <a href="#">What We Do >></a>
+                            <a href="#what-we-do">What We Do >></a>
                         </div>
                         <div class="chairman">
                             <div class="chairman-image">
@@ -157,5 +176,19 @@
                 </div>
             </section>
        <!-- End of the what we do section -->
+         <!-- start of the volunteer section -->
+        <section id="volunteer">
+            <div class="volunter container">
+                <div>
+                    <h1>Welcome To <span></span></h1>
+                    <h1>Mountain <span></span></h1>
+                    <h1>Children Home <span></span></h1>
+                    <a href="#about" type="button" class="cta">Learn more</a>
+                </div>
+            </div>
+        </section>
+       <!-- End of the volunteer section -->
+       <!-- javascript -->
+       <script src="scripts/nav.js"></script>
     </body>
     </html>
